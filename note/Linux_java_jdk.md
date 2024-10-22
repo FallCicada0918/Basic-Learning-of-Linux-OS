@@ -3,7 +3,7 @@
  * @Author: FallCicada
  * @Date: 2024-10-22 16:02:45
  * @LastEditors: FallCicada
- * @LastEditTime: 2024-10-22 16:21:40
+ * @LastEditTime: 2024-10-22 16:40:50
  * @: 無限進步
 -->
 在Linux系统上安装JDK（Java Development Kit）1.8，你可以通过多种方式来完成。下面我将指导你如何使用软件包管理器来进行安装。这里以常见的Ubuntu/Debian和CentOS/RHEL为例。
@@ -119,7 +119,7 @@
 
 4. 设置环境变量。编辑`~/.bashrc`或`/etc/profile`文件，添加如下行：
    ```bash
-   export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_XXX
+   export JAVA_HOME=/usr/lib/jvm/jdk-8-openjdk-amd64
    export PATH=$JAVA_HOME/bin:$PATH
    ```
 
