@@ -3,7 +3,7 @@
  * @Author: FallCicada
  * @Date: 2024-10-22 16:02:45
  * @LastEditors: FallCicada
- * @LastEditTime: 2024-10-22 16:05:10
+ * @LastEditTime: 2024-10-22 16:21:40
  * @: 無限進步
 -->
 在Linux系统上安装JDK（Java Development Kit）1.8，你可以通过多种方式来完成。下面我将指导你如何使用软件包管理器来进行安装。这里以常见的Ubuntu/Debian和CentOS/RHEL为例。
@@ -25,7 +25,7 @@
    ```
    这应该会显示JDK版本信息，并且确认是1.8版本。
 
-javac
+
 ### 手动安装
 
 如果你需要特定版本的Oracle JDK，并且它没有包含在你的Linux发行版的默认仓库中，你可能需要手动下载并安装JDK。以下是基本步骤：
@@ -44,7 +44,7 @@ javac
 
 4. 设置环境变量。编辑`~/.bashrc`或`/etc/profile`文件，添加如下行：
    ```bash
-   export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_XXX
+   export JAVA_HOME=/usr/lib/jvm/jdk-8-oppenjdk-amd64
    export PATH=$JAVA_HOME/bin:$PATH
    ```
 
