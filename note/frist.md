@@ -3,7 +3,7 @@
  * @Author: FallCicada
  * @Date: 2024-10-21 15:23:41
  * @LastEditors: FallCicada
- * @LastEditTime: 2024-10-22 15:10:50
+ * @LastEditTime: 2024-10-23 08:37:38
  * @: 無限進步
 -->
 
@@ -35,7 +35,7 @@
 
     * `ls -l`     显示文件详细信息
   
-    ![](./image/frist/屏幕截图%202024-10-22%20093001.pn
+    ![](./image/frist/屏幕截图%202024-10-22%20093001.png)
     
       * total 总用量
       * d 代表文件类型
